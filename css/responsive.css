@@ -1,0 +1,107 @@
+/* Media Queries */
+
+@media (max-width: 1200px){
+    .container{
+        max-width: 93%;
+    }
+}
+
+
+@media (max-width: 1024px){
+    section.main__profile{
+        flex-direction: column;
+        align-items: flex-start;
+        clip-path: none;
+    }
+    section.main__profile .left{
+        margin-bottom: 2rem;
+    }
+    section.main__profile .right{
+        align-self: flex-end;
+    }
+    section.work .wrapper{
+        display: block;
+    }
+    section.work .wrapper .slider__wrapper{
+        margin-bottom: 8rem;
+    }
+    section.partners .brand__wrapper{
+        margin-top: 3rem;
+    }
+}
+
+
+@media (max-width: 970px){
+    section.skills .content{
+        display: block;
+    }
+    section.skills .content .left{
+        margin: 1rem 0 6rem 3rem;
+    }
+    section.partners .brand__wrapper{
+        flex-wrap: wrap;
+    }
+    section.partners .brand__wrapper img{
+        margin-bottom: 2rem;
+    }
+}
+
+
+@media (max-width: 768px){
+    section.about .about__content{
+        display: block;
+    }
+    section.about .about__content .left{
+        margin-bottom: 6rem;
+    }
+    section.counter__section{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    section.counter__section > div{
+        margin-bottom: 2rem;
+    }
+}
+
+
+@media (max-width: 830px){
+    section.contact .contact__wrapper{
+        display: block;
+    }
+    section.contact .contact__wrapper .left{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+
+@media (max-width: 576px){
+    section.main__profile{
+        align-items: center;
+    }
+    section.main__profile .right{
+        align-self: center;
+        margin-top: 3rem;
+    }
+    section.skills .content .left{
+        margin: 1rem 0 6rem 0;
+    }
+    section.skills .content .right{
+        margin-left: -5rem;
+    }
+    section.contact .contact__wrapper .right .form__group{
+        display: block;
+    }
+    section.work .wrapper .portfolio .tabs ul{
+        flex-wrap: wrap;
+    }
+    section.work .wrapper .portfolio .tabs ul li{
+        margin-bottom: 2rem;
+    }
+    section.skills .right .skill-box h4{
+        font-size: 1rem;
+    }
+}
